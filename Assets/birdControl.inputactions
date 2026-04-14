@@ -1,0 +1,44 @@
+{
+    "version": 1,
+    "name": "birdControl",
+    "maps": [
+        {
+            "name": "gamePlay",
+            "id": "bfc5dda3-23e7-41dc-a787-c6f5394d88ab",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "7ed7e55c-802e-4bef-80cc-2b7f68990e5b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "0f89f0a3-c979-4847-9efb-9370735776ab",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6b840fe1-8858-4497-9d23-ad5237157796",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
